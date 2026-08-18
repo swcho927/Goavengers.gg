@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GOAVENGERS.GG</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><b>GOAVENGERS<span>.GG</span></b>
+<nav><button onclick="page('home')">홈</button><button onclick="page('players')">선수</button><button onclick="page('ranking')">랭킹</button><button onclick="page('coach')">AI 코치</button></nav></header>
+<main>
+<section id="home"><h1>GOAVENGERS</h1><p>우리 팀 League of Legends 데이터</p><div id="status">조회 중...</div><div id="cards" class="grid"></div><h2>랭킹</h2><div id="homeRank"></div></section>
+<section id="players" class="hide"><h1>선수</h1><div id="playersList"></div></section>
+<section id="profile" class="hide"><button onclick="page('players')">← 뒤로</button><div id="profileData"></div></section>
+<section id="ranking" class="hide"><h1>GOAVENGERS RANKING</h1><div id="rankList"></div></section>
+<section id="coach" class="hide"><h1>AI 코치</h1><select id="who"></select><select id="mode"><option value="recent">최근 전적 분석</option><option value="plan">티어 상승 계획</option><option value="champ">챔피언 분석</option></select><button onclick="coach()">분석</button><div id="answer" class="box"></div></section>
+</main><script src="script.js"></script>
+</body></html>
