@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: #0f1115;
+  color: #eaeaea;
+}
+
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 32px;
+  background: #161923;
+  border-bottom: 1px solid #262a36;
+}
+
+.logo {
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: #7c9dff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.site-header nav a {
+  color: #cfd3dc;
+  text-decoration: none;
+  margin-left: 24px;
+  font-size: 14px;
+}
+
+.site-header nav a:hover {
+  color: #ffffff;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 32px 20px;
+}
+
+.card {
+  background: #161923;
+  border: 1px solid #262a36;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 16px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px 10px;
+  border-bottom: 1px solid #262a36;
+  font-size: 14px;
+}
+
+th {
+  color: #8b90a0;
+  font-weight: 600;
+}
+
+.win {
+  color: #5fd1a2;
+}
+
+.loss {
+  color: #ef6f77;
+}
+
+a.player-link {
+  color: #7c9dff;
+  text-decoration: none;
+}
+
+a.player-link:hover {
+  text-decoration: underline;
+}
