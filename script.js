@@ -1,9 +1,9 @@
 const KEY="RGAPI-3a558d5f-cd40-4e09-8475-d1e7bf38806c";
 const PLAYERS=[
-{name:"Sumlimity",tag:"KR2",role:"ADC"},
+{name:"Sumlimity",tag:"KR2",role:"MID"},
 {name:"푸른소용돌이",tag:"KOR1",role:"SUP"},
-{name:"우주Univ09",tag:"9624",role:"TOP"},
-{name:"오일러항등식",tag:"KR1",role:"JGL"},
+{name:"우주Univ09",tag:"9624",role:"ADC"},
+{name:"오일러항등식",tag:"KR1",role:"TOP"},
 {name:"송민건",tag:"9639",role:"JGL"}];
 const ACC="https://asia.api.riotgames.com/riot/account/v1/accounts/by-riot-id/";
 const KR="https://kr.api.riotgames.com", MATCH="https://asia.api.riotgames.com/lol/match/v5/matches/";
